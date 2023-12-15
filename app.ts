@@ -3,3 +3,10 @@ class Minam {
     return "hello kongukjae";
   }
 }
+
+class Chunam { 
+  sayHello(): string {
+    return "bye kongukjae";
+  }
+}
+
