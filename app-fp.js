@@ -12,3 +12,13 @@ function createChunam() {
     }
   }
 }
+
+// Minam 함수 사용 예시
+console.log(sayHelloMinam()); // "hello kongukjae" 출력
+
+// Chunam 팩토리 함수를 사용하여 객체 생성 및 메서드 사용 예시
+const chunamInstance = createChunam();
+// class가 아니므로 new라는 키워드를 사용하진 않았지만
+// 사실상 함수를 호출하자마자 객체가 생성되는 것이므로
+// class와 비슷한 방식이라고 할 수 있다.
+console.log(chunamInstance.sayHello());
